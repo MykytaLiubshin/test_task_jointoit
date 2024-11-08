@@ -1,0 +1,19 @@
+services:
+  db:
+    image: postgres:15
+    env_file:
+      - path: .env
+        required: true
+  web:
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: web.dockerfile
+    command: ./docker-entrypoint.sh 
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db

@@ -1,0 +1,10 @@
+django
+django-rest-framework
+psycopg2-binary
+django-cors-headers
+djangorestframework
+typing-extensions
+redis
+pillow
+PyJWT
+django-filter
