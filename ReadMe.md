@@ -56,3 +56,13 @@ title__icontains | Returns Events with title that contain case-insensibly contai
 
 To stop the application you can use the command: 
 * docker compose down
+
+
+## P.S.
+Postman Screenshots (I would leave them in Jira comments, yet don't have them here)
+
+![alt text](<media/Screenshot from 2024-11-08 19-12-37.png>) 
+![alt text](<media/Screenshot from 2024-11-08 19-13-02.png>) 
+![alt text](<media/Screenshot from 2024-11-08 19-13-17.png>) 
+![alt text](<media/Screenshot from 2024-11-08 19-13-37.png>) 
+![alt text](<media/Screenshot from 2024-11-08 19-13-46.png>)
